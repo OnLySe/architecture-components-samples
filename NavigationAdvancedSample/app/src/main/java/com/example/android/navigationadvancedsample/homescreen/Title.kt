@@ -23,12 +23,13 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.example.android.navigationadvancedsample.BaseFragment
 import com.example.android.navigationadvancedsample.R
 
 /**
  * Shows the main title screen with a button that navigates to [About].
  */
-class Title : Fragment() {
+class Title : BaseFragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View? {

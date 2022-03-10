@@ -23,13 +23,14 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.example.android.navigationadvancedsample.BaseFragment
 import com.example.android.navigationadvancedsample.R
 
 
 /**
  * Shows a register form to showcase UI state persistence. It has a button that goes to [Registered]
  */
-class Register : Fragment() {
+class Register : BaseFragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {

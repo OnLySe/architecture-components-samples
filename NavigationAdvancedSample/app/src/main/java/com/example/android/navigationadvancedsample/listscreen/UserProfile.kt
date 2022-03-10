@@ -22,6 +22,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
+import com.example.android.navigationadvancedsample.BaseFragment
 import com.example.android.navigationadvancedsample.R
 import com.example.android.navigationadvancedsample.listscreen.MyAdapter.Companion.USERNAME_KEY
 
@@ -29,7 +30,7 @@ import com.example.android.navigationadvancedsample.listscreen.MyAdapter.Compani
 /**
  * Shows a profile screen for a user, taking the name from the arguments.
  */
-class UserProfile : Fragment() {
+class UserProfile : BaseFragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {

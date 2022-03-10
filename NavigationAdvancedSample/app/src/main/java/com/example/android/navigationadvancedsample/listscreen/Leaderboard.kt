@@ -26,12 +26,13 @@ import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
+import com.example.android.navigationadvancedsample.BaseFragment
 import com.example.android.navigationadvancedsample.R
 
 /**
  * Shows a static leaderboard with multiple users.
  */
-class Leaderboard : Fragment() {
+class Leaderboard : BaseFragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
